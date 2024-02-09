@@ -6,12 +6,10 @@ const port = +process.env.PORT || 4000
 
 // router
 app.get('/', (req, res) => {
-    // res.status(200).json({
         res.json({
             status: res.statusCode,
             message: 'Home'      
         })
-    // })
 
 }) 
 
